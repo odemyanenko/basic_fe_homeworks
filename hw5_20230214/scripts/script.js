@@ -31,7 +31,7 @@ const arraySample = [
   2,
   { name: "Jane" },
   NaN,
-  10,
+  11,
 ];
 
 // Задача 1

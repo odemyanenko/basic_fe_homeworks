@@ -6,7 +6,7 @@
 function execExtraTask2(array) {  
   let sum = 0;
   for (let i = 0; i < array.length; i++) {
-    if (!isNaN(array[i])) {
+    if ((typeof(array[i]) === "number") && !isNaN(array[i])) {
       sum += array[i];
     }    
   }
