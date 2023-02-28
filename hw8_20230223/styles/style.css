@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f5fd;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.container div {
+  padding: 20px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.taskinfo {
+  margin: 10px 0;
+}
+
+.numbers {
+  background-color: #F7C8E0;
+  border: 1px solid #ffbade;
+  margin-right: 5px;
+}
+
+.stringscontainer {
+  background-color: #DFFFD8;
+  border: 1px solid #c1fcb3;
+  margin-right: 5px;
+}
+
+.userscontainer {
+  background-color: #B4E4FF;
+  border: 1px solid #9fdafd;
+}
+
+.userscontainer div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.card {
+  border: 1px solid black;  
+  text-align: center;
+  font-style: 24px;
+  cursor: pointer;
+}
