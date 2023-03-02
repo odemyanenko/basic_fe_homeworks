@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  width: 100px;
+  padding: 5px 10px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  border: 1px solid rgba(0, 191, 255, 0.596);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card {
+  width: 300px;
+  margin: 3px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taskinfo {
+  margin: 10px 0;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#square_task1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  transition: all .3s ease;
+}
+
+#square_task2 {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  transition: all .3s ease;
+}
+
+#square_task3 {
+  height: 150px;
+  width: 150px;
+  background-color: deepskyblue;
+  transition: all .3s ease;
+}
+
+.root p {
+  color: white;
+  padding: 2px 5px;
+}
+
+.root p:not(:last-child) {
+  margin-bottom: 3px;
+}
